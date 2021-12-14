@@ -1,0 +1,24 @@
+header {
+  background-color: black;
+}
+
+header a {
+  color: white;
+}
+nav li {
+  display: inline-block;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+main a {
+  background-color: red;
+}
+
+.review {
+  background-color: lightgrey;
+}
