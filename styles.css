@@ -22,3 +22,7 @@ main a {
 .review {
   background-color: lightgrey;
 }
+
+#sale {
+  background-color: green;
+}
