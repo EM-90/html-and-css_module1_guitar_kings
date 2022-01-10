@@ -20,6 +20,22 @@
     </header>
     <main>
       <h1>Contact</h1>
+      <label for="full-name">Full name</label>
+      <input type="text" id="name" name="contact_form" />
+      <label for="E-mail">E-mail</label>
+      <input type="text" id="email" name="contact_form" />
+      <form action="/action_pare.php">
+        <label for="guitar">Guitar</label>
+        <select id="guitar" name="guitar">
+          <option value="adirodnack_red">Adirodnack Red</option>
+          <option value="other_guitar">Other guitar</option>
+        </select>
+        <input type="checkbox" id="signin" name="sign up" />
+        <label for="sign-up">Sign up for email updates.</label>
+        <label for="message">Message</label>
+        <textarea id="message" name="message"></textarea>
+        <input type="submit" id="message_button" value="Send Now" />
+      </form>
     </main>
     <footer>Copyright &copy;</footer>
   </body>

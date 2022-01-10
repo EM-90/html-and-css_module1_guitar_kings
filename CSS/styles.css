@@ -53,3 +53,22 @@ main a {
   border-radius: 50%;
   padding-left: 20px;
 }
+
+form {
+  display: inline-block;
+}
+
+select {
+  background-color: lightgray;
+}
+
+footer {
+  background-color: lightgray;
+}
+
+#message_button {
+  font-size: 20px;
+  color: #ffff;
+  background-color: rgb(172, 66, 66);
+  border-radius: 8px 8px 8px 8px;
+}
