@@ -7,11 +7,14 @@ body {
   font-family: "roboto";
 }
 
+/*HEADER AND NAV SECTION*/
+
 h1,
 h2,
 .logo {
   font-family: "Boots And Spurs", "Segoe UI", Tahoma, Geneva, Verdana,
     sans-serif;
+  text-decoration: none;
 }
 img {
   border-radius: 30px 30px 30px 30px;
@@ -30,8 +33,17 @@ footer {
   text-align: center;
 }
 
+header {
+  display: flex;
+  align-items: center;
+}
+
 header a {
   color: white;
+}
+
+nav {
+  margin-left: 25px;
 }
 
 nav ul {
@@ -52,6 +64,34 @@ nav a {
   text-decoration: underline;
 }
 
+.head-section {
+  background-image: url("/images/home-header.jpg");
+  min-height: 70vh;
+  background-size: cover;
+  background-position-x: right;
+  background-position-y: bottom;
+  position: relative;
+}
+
+.head-section-content {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  text-align: center;
+}
+
+.selling-points {
+  max-width: 1000px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.selling-points > * {
+  flex: 1;
+}
+
+/*CTA's*/
+
 .cta-button {
   background-color: #bb0000;
   text-transform: uppercase;
@@ -61,19 +101,18 @@ nav a {
   padding: 10px 80px;
 }
 
-.head-section {
-  background-image: url("/images/home-header.jpg");
-  min-height: 70vh;
-  background-size: cover;
-  background-position-x: right;
-  background-position-y: bottom;
+.cta,
+.cta-sale {
+  padding: 10px 40px;
+  border-radius: 5px;
 }
 
 .cta {
   background-color: #bb0000;
   color: white;
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1em;
+  text-transform: uppercase;
 }
 
 .cta-sale {
@@ -81,8 +120,10 @@ nav a {
   text-transform: uppercase;
   text-decoration: none;
   color: white;
-  font-size: 1.5em;
+  font-size: 1em;
 }
+
+/*REVIEWS*/
 
 .review {
   background-color: lightgrey;
@@ -105,5 +146,4 @@ textarea {
 }
 
 footer {
-  background-color: lightgray;
 }
